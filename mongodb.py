@@ -8,6 +8,11 @@ a = {
         "roll": 191500039,
         "email": 'abhishek.singh2_cs19@gmal.com'
     }
+b= {
+    "name": 'abhishek singh',
+    "roll": 191500038,
+    "email": 'abhishek.singh_cs19@gmal.com'
+}
 mongodb = client['mongotest']
 coll = mongodb['test']
-coll.insert_one(a)
+coll.insert_one(b)
